@@ -11,6 +11,14 @@ import { ContactosComponent } from './pages/contactos/contactos.component';
 import { VerificarreservaComponent } from './pages/verificarreserva/verificarreserva.component';
 import { ReservasdosComponent } from './pages/reservasdos/reservasdos.component';
 import { HorariodosComponent } from './pages/horariodos/horariodos.component';
+import { HorariotresComponent } from './pages/horariotres/horariotres.component';
+import { ReservastresComponent } from './pages/reservastres/reservastres.component';
+import { HorariocuatroComponent } from './pages/horariocuatro/horariocuatro.component';
+import { ReservascuatroComponent } from './pages/reservascuatro/reservascuatro.component';
+import { HorariocincoComponent } from './pages/horariocinco/horariocinco.component';
+import { ReservascincoComponent } from './pages/reservascinco/reservascinco.component';
+import { HorarioseisComponent } from './pages/horarioseis/horarioseis.component';
+import { ReservasseisComponent } from './pages/reservasseis/reservasseis.component';
 
 const routes: Routes = [{path: 'home', component: HomeComponent},
 {path: 'registro', component: RegistroComponent},
@@ -22,7 +30,15 @@ const routes: Routes = [{path: 'home', component: HomeComponent},
 {path: 'contactos', component: ContactosComponent},
 {path: 'verificarreserva', component: VerificarreservaComponent},
 {path: 'reservasdos', component: ReservasdosComponent},
-{path: 'horariodos', component: HorariodosComponent}];
+{path: 'horariodos', component: HorariodosComponent},
+{path: 'horariotres', component: HorariotresComponent},
+{path: 'reservastres', component: ReservastresComponent},
+{path: 'horariocuatro', component: HorariocuatroComponent},
+{path: 'reservascuatro', component: ReservascuatroComponent},
+{path: 'horariocinco', component: HorariocincoComponent},
+{path: 'reservascinco', component: ReservascincoComponent},
+{path: 'horarioseis', component: HorarioseisComponent},
+{path: 'reservasseis', component: ReservasseisComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
